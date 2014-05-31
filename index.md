@@ -1,6 +1,6 @@
 ---
 layout: page
-title: E=MC²
-tagline: e2mc's blog
+title: e2mc's blog
+tagline: code on the left while poem on the right
 ---
 {% include JB/setup %}
