@@ -1,6 +1,6 @@
 ---
 layout: page
-title: E=mc²
+title: E=MC²
 tagline: e2mc's blog
 ---
 {% include JB/setup %}
