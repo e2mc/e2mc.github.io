@@ -4,11 +4,11 @@ pygments: true
 
 markdown: kramdown
 
-title : Linusp's Blog
+title : e2mc's Blog
 author :
-  name : Linusp
-  email : linusp1024@gmail.com
-  github : Linusp
+  name : e2mc
+  email : e2mc01@gmail.com
+  github : e2mc 
 
 
 production_url : http://linusp.github.io
