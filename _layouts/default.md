@@ -72,7 +72,7 @@
     <div class="topbar">
       <div class="fill">
         <div class="container">
-          <a class="brand" href="/index.md">{{ site.title }}</a>
+          <a class="brand" href="/index.html">{{ site.title }}</a>
           <ul class="nav">
 	    {% for link in site.nav %}
 	    {% assign active = nil %}
