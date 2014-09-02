@@ -1,4 +1,4 @@
-permalink: /:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title.md
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
@@ -15,15 +15,15 @@ production_url : http://linusp.github.io
 
 nav:
   - text: 分类
-    url : /categories.html
+    url : /categories.md 
   - text: 存档
-    url : /archive.html
+    url : /archive.md
   - text: 关于
-    url : /about.html
+    url : /about.md
 
 JB :
   version : 0.3.0
 
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
+  archive_path: /archive.md
+  categories_path : /categories.md
+  tags_path : /tags.md
