@@ -4,7 +4,7 @@ pygments: true
 
 markdown: kramdown
 
-title : e2mc's Blog
+title : e2mc's blog
 author :
   name : e2mc
   email : e2mc01@gmail.com
