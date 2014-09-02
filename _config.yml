@@ -15,15 +15,15 @@ production_url : http://linusp.github.io
 
 nav:
   - text: 分类
-    url : /categories.md 
+    url : /categories.html
   - text: 存档
-    url : /archive.md
+    url : /archive.html
   - text: 关于
-    url : /about.md
+    url : /about.html
 
 JB :
   version : 0.3.0
 
-  archive_path: /archive.md
-  categories_path : /categories.md
-  tags_path : /tags.md
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
