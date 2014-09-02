@@ -103,10 +103,6 @@
 
     </div> <!-- /container -->
 
-    <!-- Baidu Analytics -->
-   <script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F89d1801feb73928828d14e872ea29701' type='text/javascript'%3E%3C/script%3E"));
-</script>
+    <!-- Analytics -->
   </body>
 </html>
