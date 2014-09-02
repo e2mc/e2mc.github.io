@@ -16,14 +16,8 @@ production_url : http://linusp.github.io
 nav:
   - text: 分类
     url : /categories.html
-  - text: 标签
-    url : /tags.html
   - text: 存档
     url : /archive.html
-  - text: IF
-    url : /if.html
-  - text: 链接
-    url : /link.html
   - text: 关于
     url : /about.html
 
@@ -33,4 +27,3 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
-  atom_path : /atom.xml
