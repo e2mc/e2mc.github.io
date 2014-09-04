@@ -29,7 +29,7 @@ layout: default
     <!-- Duoshuo Comment BEGIN -->
     <div class="ds-thread"></div>
     <script type="text/javascript">
-      var duoshuoQuery = {short_name:"linuspb"};
+      var duoshuoQuery = {short_name:"e2mc"};
     (function() {
         var ds = document.createElement('script');
         ds.type = 'text/javascript';ds.async = true;
