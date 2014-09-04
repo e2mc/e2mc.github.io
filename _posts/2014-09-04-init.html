@@ -59,4 +59,24 @@ type C struct {
 </pre>
 <p>c.say() 会输出 say A</p>
 <p>c.hello() 则会报错 ambiguous selector c.hello</p> 
+<li>go中的双向链表</li>
+<div class="org-src-container">
+    <pre class="src src-C">package main
+
+import (
+    "container/list"
+    "fmt"
+)
+
+func main() {
+    l := list.New()
+    e4 := l.PushBack(4)
+    e1 := l.PushFront(1)
+    l.InsertBefore(3, e4) 
+    l.InsertAfter(2, e1) 
+    for e := l.Front(); e != nil; e = e.Next() {
+        fmt.Println(e.Value)
+    }   
+}
+</pre>
 </ul>
