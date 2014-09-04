@@ -11,7 +11,7 @@ description: "this is my leaning plan"
 <p>&nbsp;&nbsp;&nbsp;&nbsp;时间： 今天开始~~10月1日</p>
 <br>
 <ul>
-<li>revel learn--go 单向channel作为struct的成员</li>
+<li>单向channel作为struct的成员</li>
 <div class="org-src-container">
 <pre class="src src-C">type Event struct {
     Type      string // "join", "leave", or "message"
@@ -26,5 +26,37 @@ type Subscription struct {
 </pre>
 </div>
 <p>其中  New是结构Subscription的一个成员变量，他的类型是一个只能接收Event类型的单向chan</p>
-<li></li>
+<li>go struct 中匿名成员函数"继承"</li>
+<div class="org-src-container">
+    <pre class="src src-C">package main
+
+import "fmt"
+
+func main() {
+    c := C{} 
+    c.say()
+}
+
+type A struct{}
+type B struct{}
+
+func (r A) hello() {
+    fmt.Println("hello A")
+}
+
+func (r A) say() {
+    fmt.Println("say A")
+}
+
+func (r B) hello() {
+    fmt.Println("hello B")
+}
+
+type C struct {
+    A   
+    B   
+}
+</pre>
+<p>c.say() 会输出 say A</p>
+<p>c.hello() 则会报错 ambiguous selector c.hello</p> 
 </ul>
