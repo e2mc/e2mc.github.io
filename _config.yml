@@ -1,29 +1,13 @@
-permalink: /:year/:month/:day/:title.html
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-pygments: true
+markdown: redcarpet
+highlighter: null
+permalink: /:title
 
-markdown: kramdown
+url:
+baseurl:
 
-title : e2mc's blog
-author :
-  name : e2mc
-  email : e2mc01@163.com
-  github : e2mc 
+redcarpet:
+  extensions: [strikethrough, tables]
 
-
-production_url : http://e2mc.github.io
-
-nav:
-  - text: 分类
-    url : /categories.html
-  - text: 存档
-    url : /archive.html
-  - text: 关于
-    url : /about.html
-
-JB :
-  version : 0.3.0
-
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
+sass:
+  sass_dir: public/css
+  style: :compressed
